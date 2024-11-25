@@ -16,11 +16,11 @@ jobs:
     steps:
       # step1: Check out the code from the repository
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # step2: Set up Python environment
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: "3.8"
       
